@@ -1,90 +1,78 @@
-# Kaushik Dutt - Portfolio Website
+# 📊 Predictive Modeling for Life Insurance Cross-Selling
 
-A modern, responsive portfolio website showcasing Kaushik Dutt's skills, education, and achievements as a Software Engineer.
+A machine learning project focused on identifying health insurance policyholders who are most likely to buy vehicle insurance. The goal is to assist insurance companies in increasing cross-sell conversions using data-driven strategies.
 
-## Features
+---
 
-- **Clean, Minimalist Design**: Elegant gray and black color scheme with accent highlights
-- **Responsive Layout**: Optimized for all device sizes from mobile to desktop
-- **Custom Cursor**: Unique cursor effect that enhances user interaction
-- **Animated Background**: Floating geometric shapes that react to cursor movement
-- **Scroll Animations**: Elements animate into view as you scroll down the page
-- **Mobile-Friendly Navigation**: Hamburger menu for smaller screens
-- **Contact Form**: Easy way for visitors to get in touch
+## 🎯 Objective
 
-## Sections
+To build a predictive model that helps insurance companies identify existing health insurance customers who are likely to purchase vehicle insurance, improving marketing targeting and cross-sell efficiency.
 
-1. **Home**: Introduction and call-to-action
-2. **About**: Personal information and coding platforms
-3. **Skills**: Technical and soft skills
-4. **Education**: Academic background
-5. **Achievements**: Section for future achievements
-6. **Contact**: Contact form and information
+---
 
-## Technologies Used
+## 📌 Key Features
 
-- HTML5
-- CSS3 (with CSS Variables, Flexbox, and Grid)
-- JavaScript (Vanilla JS)
-- Font Awesome Icons
+- 🧼 **Data Cleaning & Preprocessing**
+- 📊 **Exploratory Data Analysis (EDA)** to understand key trends
+- 🤖 Applied multiple **ML models**:
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+  - Gradient Boosting
+- ⚖️ **Handled class imbalance** using SMOTE
+- 📈 **Evaluated model performance** with accuracy, precision, recall, F1-score, ROC-AUC
 
-## Setup and Usage
+---
 
-1. Clone or download this repository
-2. Open `index.html` in your browser
-3. To make changes:
-   - Edit `index.html` for content changes
-   - Modify `assets/css/style.css` for styling
-   - Update `assets/js/main.js` for functionality
+## 📁 Dataset
 
-## Customization
+The dataset contains anonymized customer features such as:
+- Age, region, vehicle damage status
+- Previously insured status
+- Annual premium
+- Policy sales channel, etc.
 
-### Adding Profile Photo
-Replace the profile placeholder in the hero section with your photo:
+---
 
-```html
-<div class="hero-image animate-on-scroll">
-    <img src="assets/images/your-photo.jpg" alt="Kaushik Dutt">
-</div>
-```
+## 🛠️ Tech Stack
 
-### Adding Social Media Links
-Update the social media section in the contact area:
+- Python 3.x
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+- Imbalanced-learn (for SMOTE)
 
-```html
-<div class="social-links">
-    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i>
-    </a>
-    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-linkedin"></i>
-    </a>
-    <!-- Add more social links as needed -->
-</div>
-```
+---
 
-### Adding Achievements
-When you have achievements to add, update the achievements section:
+## 📉 Problem Type
 
-```html
-<div class="achievements-container">
-    <div class="achievement-item">
-        <div class="achievement-icon">
-            <i class="fas fa-trophy"></i>
-        </div>
-        <div class="achievement-details">
-            <h3>Achievement Title</h3>
-            <p>Description of the achievement</p>
-        </div>
-    </div>
-    <!-- Add more achievements as needed -->
-</div>
-```
+**Binary Classification**  
+Target: `Response`  
+> 1 → Will buy vehicle insurance  
+> 0 → Will not buy
 
-## License
+---
 
-This project is available for personal use.
+## 🧠 EDA Highlights
 
-## Contact
+- Customers with damaged vehicles and no previous insurance are more likely to buy.
+- Certain age groups and sales channels show higher conversion.
+- Premium ranges help segment potential buyers.
 
-For any questions or suggestions, please contact Kaushik Dutt at kkdutt99@gmail.com. 
+---
+
+## 🧪 Model Evaluation (Example)
+
+| Model              | Accuracy | ROC-AUC | F1 Score |
+|-------------------|----------|---------|----------|
+| Logistic Regression | 87.2%    | 0.79    | 0.73     |
+| Decision Tree       | 89.0%    | 0.82    | 0.76     |
+| Random Forest       | 91.3%    | 0.86    | 0.81     |
+| Gradient Boosting   | **92.1%** | **0.89** | **0.83** |
+
+> Final model: **Gradient Boosting Classifier**
+
+---
+
+## 🧾 Folder Structure
+
