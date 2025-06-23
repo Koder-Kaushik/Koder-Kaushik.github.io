@@ -87,14 +87,18 @@ This model can help insurers:
 
 ## 🧑‍💻 Team
 
-Built as a collaborative project by a team of student data scientists.  
+Built as a collaborative project by a team of student data science.  
 Focus: Real-world application, teamwork, and ML pipeline execution.
 
 ---
 
 ## 📜 License
 
-MIT License — open for learning and enhancement.
+# ⚠️ Usage Notice
+
+This project is for educational and portfolio purposes only.  
+If you wish to use, modify, or distribute any part of this code, please contact me first at [your email or LinkedIn].
+
 
 ---
 
