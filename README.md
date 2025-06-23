@@ -74,5 +74,33 @@ Target: `Response`
 
 ---
 
-## 🧾 Folder Structure
+---
+
+## 🌟 Impact
+
+This model can help insurers:
+- Identify high-potential customers
+- Run targeted campaigns
+- Improve cross-sell conversion rates
+
+---
+
+## 🧑‍💻 Team
+
+Built as a collaborative project by a team of student data scientists.  
+Focus: Real-world application, teamwork, and ML pipeline execution.
+
+---
+
+## 📜 License
+
+MIT License — open for learning and enhancement.
+
+---
+
+## 🚀 Future Enhancements
+
+- Build a Flask web app interface
+- Add SHAP/LIME for interpretability
+- Include automated report generation
 
